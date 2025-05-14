@@ -1,0 +1,10 @@
+pandas
+pyyaml
+openai
+langchain
+langgraph
+python-dotenv
+tqdm
+streamlit
+streamlit-chat
+tabulate

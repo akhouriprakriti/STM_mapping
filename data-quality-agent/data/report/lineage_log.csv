@@ -1,0 +1,458 @@
+row,source_column,target_column,original_value,transformed_value,transformation_applied
+0,loan_id,loan_number,853253,0000853253,pad_10_digits
+1,loan_id,loan_number,986626,0000986626,pad_10_digits
+2,loan_id,loan_number,80945,0000080945,pad_10_digits
+3,loan_id,loan_number,790023,0000790023,pad_10_digits
+4,loan_id,loan_number,573751,0000573751,pad_10_digits
+5,loan_id,loan_number,20695,0000020695,pad_10_digits
+6,loan_id,loan_number,257291,0000257291,pad_10_digits
+7,loan_id,loan_number,137872,0000137872,pad_10_digits
+8,loan_id,loan_number,977694,0000977694,pad_10_digits
+9,loan_id,loan_number,939159,0000939159,pad_10_digits
+10,loan_id,loan_number,392157,0000392157,pad_10_digits
+11,loan_id,loan_number,764491,0000764491,pad_10_digits
+12,loan_id,loan_number,95215,0000095215,pad_10_digits
+13,loan_id,loan_number,898284,0000898284,pad_10_digits
+14,loan_id,loan_number,457257,0000457257,pad_10_digits
+15,loan_id,loan_number,441976,0000441976,pad_10_digits
+16,loan_id,loan_number,501288,0000501288,pad_10_digits
+17,loan_id,loan_number,623990,0000623990,pad_10_digits
+18,loan_id,loan_number,299950,0000299950,pad_10_digits
+19,loan_id,loan_number,742498,0000742498,pad_10_digits
+20,loan_id,loan_number,199753,0000199753,pad_10_digits
+21,loan_id,loan_number,190970,0000190970,pad_10_digits
+22,loan_id,loan_number,905350,0000905350,pad_10_digits
+23,loan_id,loan_number,756681,0000756681,pad_10_digits
+24,loan_id,loan_number,390693,0000390693,pad_10_digits
+25,loan_id,loan_number,348720,0000348720,pad_10_digits
+26,loan_id,loan_number,557404,0000557404,pad_10_digits
+27,loan_id,loan_number,21747,0000021747,pad_10_digits
+28,loan_id,loan_number,591325,0000591325,pad_10_digits
+29,loan_id,loan_number,814845,0000814845,pad_10_digits
+30,loan_id,loan_number,431080,0000431080,pad_10_digits
+31,loan_id,loan_number,580350,0000580350,pad_10_digits
+32,loan_id,loan_number,889098,0000889098,pad_10_digits
+33,loan_id,loan_number,88575,0000088575,pad_10_digits
+34,loan_id,loan_number,821516,0000821516,pad_10_digits
+35,loan_id,loan_number,974443,0000974443,pad_10_digits
+36,loan_id,loan_number,259388,0000259388,pad_10_digits
+37,loan_id,loan_number,830642,0000830642,pad_10_digits
+38,loan_id,loan_number,532958,0000532958,pad_10_digits
+39,loan_id,loan_number,88876,0000088876,pad_10_digits
+40,loan_id,loan_number,760589,0000760589,pad_10_digits
+41,loan_id,loan_number,421663,0000421663,pad_10_digits
+42,loan_id,loan_number,136569,0000136569,pad_10_digits
+43,loan_id,loan_number,743647,0000743647,pad_10_digits
+44,loan_id,loan_number,529356,0000529356,pad_10_digits
+45,loan_id,loan_number,864241,0000864241,pad_10_digits
+46,loan_id,loan_number,266141,0000266141,pad_10_digits
+47,loan_id,loan_number,574253,0000574253,pad_10_digits
+48,loan_id,loan_number,920582,0000920582,pad_10_digits
+49,loan_id,loan_number,551851,0000551851,pad_10_digits
+50,loan_id,loan_number,202847,0000202847,pad_10_digits
+51,loan_id,loan_number,827246,0000827246,pad_10_digits
+52,loan_id,loan_number,899392,0000899392,pad_10_digits
+53,loan_id,loan_number,820034,0000820034,pad_10_digits
+54,loan_id,loan_number,329310,0000329310,pad_10_digits
+55,loan_id,loan_number,242819,0000242819,pad_10_digits
+56,loan_id,loan_number,156940,0000156940,pad_10_digits
+57,loan_id,loan_number,417149,0000417149,pad_10_digits
+58,loan_id,loan_number,209773,0000209773,pad_10_digits
+59,loan_id,loan_number,405627,0000405627,pad_10_digits
+60,loan_id,loan_number,552776,0000552776,pad_10_digits
+61,loan_id,loan_number,811190,0000811190,pad_10_digits
+62,loan_id,loan_number,137373,0000137373,pad_10_digits
+63,loan_id,loan_number,260204,0000260204,pad_10_digits
+64,loan_id,loan_number,828425,0000828425,pad_10_digits
+65,loan_id,loan_number,999065,0000999065,pad_10_digits
+66,loan_id,loan_number,47456,0000047456,pad_10_digits
+67,loan_id,loan_number,960043,0000960043,pad_10_digits
+68,loan_id,loan_number,196047,0000196047,pad_10_digits
+69,loan_id,loan_number,328507,0000328507,pad_10_digits
+70,loan_id,loan_number,687832,0000687832,pad_10_digits
+71,loan_id,loan_number,868300,0000868300,pad_10_digits
+72,loan_id,loan_number,126884,0000126884,pad_10_digits
+73,loan_id,loan_number,900404,0000900404,pad_10_digits
+74,loan_id,loan_number,78758,0000078758,pad_10_digits
+75,loan_id,loan_number,347850,0000347850,pad_10_digits
+76,loan_id,loan_number,739095,0000739095,pad_10_digits
+77,loan_id,loan_number,171972,0000171972,pad_10_digits
+78,loan_id,loan_number,783010,0000783010,pad_10_digits
+79,loan_id,loan_number,597487,0000597487,pad_10_digits
+80,loan_id,loan_number,177806,0000177806,pad_10_digits
+81,loan_id,loan_number,273199,0000273199,pad_10_digits
+82,loan_id,loan_number,532504,0000532504,pad_10_digits
+83,loan_id,loan_number,266952,0000266952,pad_10_digits
+84,loan_id,loan_number,238304,0000238304,pad_10_digits
+85,loan_id,loan_number,254262,0000254262,pad_10_digits
+86,loan_id,loan_number,77532,0000077532,pad_10_digits
+87,loan_id,loan_number,689749,0000689749,pad_10_digits
+88,loan_id,loan_number,545438,0000545438,pad_10_digits
+89,loan_id,loan_number,604940,0000604940,pad_10_digits
+90,loan_id,loan_number,997796,0000997796,pad_10_digits
+91,loan_id,loan_number,299888,0000299888,pad_10_digits
+92,loan_id,loan_number,599592,0000599592,pad_10_digits
+93,loan_id,loan_number,921666,0000921666,pad_10_digits
+94,loan_id,loan_number,586937,0000586937,pad_10_digits
+95,loan_id,loan_number,993898,0000993898,pad_10_digits
+96,loan_id,loan_number,252884,0000252884,pad_10_digits
+97,loan_id,loan_number,419734,0000419734,pad_10_digits
+98,loan_id,loan_number,499500,0000499500,pad_10_digits
+99,loan_id,loan_number,706408,0000706408,pad_10_digits
+0,dob,age,2008-10-01,17,calculate_age
+1,dob,age,2006-06-06,19,calculate_age
+2,dob,age,2007-08-01,18,calculate_age
+3,dob,age,1991-07-09,34,calculate_age
+4,dob,age,1993-09-10,32,calculate_age
+5,dob,age,1995-05-28,30,calculate_age
+6,dob,age,2013-01-16,12,calculate_age
+7,dob,age,2002-12-28,23,calculate_age
+8,dob,age,2000-03-30,25,calculate_age
+9,dob,age,1994-01-22,31,calculate_age
+10,dob,age,1987-12-17,38,calculate_age
+11,dob,age,1990-10-22,35,calculate_age
+12,dob,age,2005-11-20,20,calculate_age
+13,dob,age,2008-08-14,17,calculate_age
+14,dob,age,2003-07-24,22,calculate_age
+15,dob,age,2008-09-05,17,calculate_age
+16,dob,age,2012-04-27,13,calculate_age
+17,dob,age,1983-06-23,42,calculate_age
+18,dob,age,1997-06-19,28,calculate_age
+19,dob,age,1986-02-08,39,calculate_age
+20,dob,age,1993-05-12,32,calculate_age
+21,dob,age,2002-01-09,23,calculate_age
+22,dob,age,2011-07-13,14,calculate_age
+23,dob,age,1994-06-25,31,calculate_age
+24,dob,age,2009-06-12,16,calculate_age
+25,dob,age,2007-10-15,18,calculate_age
+26,dob,age,2005-05-17,20,calculate_age
+27,dob,age,1980-11-12,45,calculate_age
+28,dob,age,1989-02-08,36,calculate_age
+29,dob,age,2009-07-03,16,calculate_age
+30,dob,age,2010-09-10,15,calculate_age
+31,dob,age,1995-07-24,30,calculate_age
+32,dob,age,2010-05-04,15,calculate_age
+33,dob,age,2011-08-30,14,calculate_age
+34,dob,age,1986-04-21,39,calculate_age
+35,dob,age,2000-09-01,25,calculate_age
+36,dob,age,1989-02-18,36,calculate_age
+37,dob,age,2014-02-07,11,calculate_age
+38,dob,age,2004-11-21,21,calculate_age
+39,dob,age,2000-09-22,25,calculate_age
+40,dob,age,1997-08-12,28,calculate_age
+41,dob,age,1990-05-29,35,calculate_age
+42,dob,age,1987-04-26,38,calculate_age
+43,dob,age,1995-05-07,30,calculate_age
+44,dob,age,1989-11-02,36,calculate_age
+45,dob,age,1982-08-28,43,calculate_age
+46,dob,age,2011-10-15,14,calculate_age
+47,dob,age,1984-01-11,41,calculate_age
+48,dob,age,1982-03-12,43,calculate_age
+49,dob,age,2014-08-11,11,calculate_age
+50,dob,age,1986-03-27,39,calculate_age
+51,dob,age,2014-05-17,11,calculate_age
+52,dob,age,1997-12-04,28,calculate_age
+53,dob,age,1998-05-20,27,calculate_age
+54,dob,age,2007-01-16,18,calculate_age
+55,dob,age,1983-03-12,42,calculate_age
+56,dob,age,1992-09-08,33,calculate_age
+57,dob,age,2005-08-08,20,calculate_age
+58,dob,age,1994-11-30,31,calculate_age
+59,dob,age,2006-07-07,19,calculate_age
+60,dob,age,1986-05-10,39,calculate_age
+61,dob,age,1988-12-08,37,calculate_age
+62,dob,age,2001-07-29,24,calculate_age
+63,dob,age,1990-09-13,35,calculate_age
+64,dob,age,2007-11-28,18,calculate_age
+65,dob,age,1993-04-17,32,calculate_age
+66,dob,age,1987-03-17,38,calculate_age
+67,dob,age,1997-11-04,28,calculate_age
+68,dob,age,1984-12-25,41,calculate_age
+69,dob,age,1989-10-25,36,calculate_age
+70,dob,age,1995-06-27,30,calculate_age
+71,dob,age,2012-01-09,13,calculate_age
+72,dob,age,2010-05-08,15,calculate_age
+73,dob,age,1984-02-02,41,calculate_age
+74,dob,age,1981-06-10,44,calculate_age
+75,dob,age,1986-04-06,39,calculate_age
+76,dob,age,2000-05-23,25,calculate_age
+77,dob,age,2014-10-01,11,calculate_age
+78,dob,age,2003-02-04,22,calculate_age
+79,dob,age,1983-12-14,42,calculate_age
+80,dob,age,1988-07-16,37,calculate_age
+81,dob,age,1996-07-20,29,calculate_age
+82,dob,age,1993-04-20,32,calculate_age
+83,dob,age,1998-12-26,27,calculate_age
+84,dob,age,1989-10-08,36,calculate_age
+85,dob,age,1992-08-08,33,calculate_age
+86,dob,age,2014-04-26,11,calculate_age
+87,dob,age,2001-01-06,24,calculate_age
+88,dob,age,1992-01-27,33,calculate_age
+89,dob,age,1981-09-22,44,calculate_age
+90,dob,age,1981-12-15,44,calculate_age
+91,dob,age,1999-08-28,26,calculate_age
+92,dob,age,1984-06-07,41,calculate_age
+93,dob,age,2004-06-15,21,calculate_age
+94,dob,age,1986-02-01,39,calculate_age
+95,dob,age,2006-11-29,19,calculate_age
+96,dob,age,2011-09-01,14,calculate_age
+97,dob,age,1986-10-19,39,calculate_age
+98,dob,age,1998-12-07,27,calculate_age
+99,dob,age,1992-06-20,33,calculate_age
+0,app_date,application_date,16/08/2021,2021-08-16,format: %Y-%m-%d
+1,app_date,application_date,10/03/2021,2021-03-10,format: %Y-%m-%d
+2,app_date,application_date,02/09/2023,2023-09-02,format: %Y-%m-%d
+3,app_date,application_date,03/02/2021,2021-02-03,format: %Y-%m-%d
+4,app_date,application_date,01/01/2023,2023-01-01,format: %Y-%m-%d
+5,app_date,application_date,26/01/2021,2021-01-26,format: %Y-%m-%d
+6,app_date,application_date,09/11/2022,2022-11-09,format: %Y-%m-%d
+7,app_date,application_date,13/05/2021,2021-05-13,format: %Y-%m-%d
+8,app_date,application_date,24/03/2023,2023-03-24,format: %Y-%m-%d
+9,app_date,application_date,13/06/2021,2021-06-13,format: %Y-%m-%d
+10,app_date,application_date,29/08/2021,2021-08-29,format: %Y-%m-%d
+11,app_date,application_date,27/10/2022,2022-10-27,format: %Y-%m-%d
+12,app_date,application_date,28/02/2023,2023-02-28,format: %Y-%m-%d
+13,app_date,application_date,12/08/2022,2022-08-12,format: %Y-%m-%d
+14,app_date,application_date,30/10/2022,2022-10-30,format: %Y-%m-%d
+15,app_date,application_date,01/05/2021,2021-05-01,format: %Y-%m-%d
+16,app_date,application_date,30/05/2022,2022-05-30,format: %Y-%m-%d
+17,app_date,application_date,05/02/2023,2023-02-05,format: %Y-%m-%d
+18,app_date,application_date,17/12/2022,2022-12-17,format: %Y-%m-%d
+19,app_date,application_date,03/03/2022,2022-03-03,format: %Y-%m-%d
+20,app_date,application_date,07/12/2021,2021-12-07,format: %Y-%m-%d
+21,app_date,application_date,27/03/2021,2021-03-27,format: %Y-%m-%d
+22,app_date,application_date,21/06/2022,2022-06-21,format: %Y-%m-%d
+23,app_date,application_date,28/08/2021,2021-08-28,format: %Y-%m-%d
+24,app_date,application_date,27/09/2023,2023-09-27,format: %Y-%m-%d
+25,app_date,application_date,27/09/2023,2023-09-27,format: %Y-%m-%d
+26,app_date,application_date,02/12/2022,2022-12-02,format: %Y-%m-%d
+27,app_date,application_date,02/11/2021,2021-11-02,format: %Y-%m-%d
+28,app_date,application_date,15/07/2022,2022-07-15,format: %Y-%m-%d
+29,app_date,application_date,31/03/2023,2023-03-31,format: %Y-%m-%d
+30,app_date,application_date,13/03/2023,2023-03-13,format: %Y-%m-%d
+31,app_date,application_date,11/04/2021,2021-04-11,format: %Y-%m-%d
+32,app_date,application_date,31/03/2021,2021-03-31,format: %Y-%m-%d
+33,app_date,application_date,25/05/2022,2022-05-25,format: %Y-%m-%d
+34,app_date,application_date,13/08/2022,2022-08-13,format: %Y-%m-%d
+35,app_date,application_date,04/10/2021,2021-10-04,format: %Y-%m-%d
+36,app_date,application_date,08/04/2023,2023-04-08,format: %Y-%m-%d
+37,app_date,application_date,03/09/2023,2023-09-03,format: %Y-%m-%d
+38,app_date,application_date,07/06/2023,2023-06-07,format: %Y-%m-%d
+39,app_date,application_date,20/02/2021,2021-02-20,format: %Y-%m-%d
+40,app_date,application_date,07/04/2021,2021-04-07,format: %Y-%m-%d
+41,app_date,application_date,27/10/2022,2022-10-27,format: %Y-%m-%d
+42,app_date,application_date,01/11/2022,2022-11-01,format: %Y-%m-%d
+43,app_date,application_date,22/08/2022,2022-08-22,format: %Y-%m-%d
+44,app_date,application_date,08/09/2021,2021-09-08,format: %Y-%m-%d
+45,app_date,application_date,25/09/2021,2021-09-25,format: %Y-%m-%d
+46,app_date,application_date,04/02/2021,2021-02-04,format: %Y-%m-%d
+47,app_date,application_date,11/11/2021,2021-11-11,format: %Y-%m-%d
+48,app_date,application_date,26/03/2021,2021-03-26,format: %Y-%m-%d
+49,app_date,application_date,02/11/2021,2021-11-02,format: %Y-%m-%d
+50,app_date,application_date,05/09/2021,2021-09-05,format: %Y-%m-%d
+51,app_date,application_date,19/08/2022,2022-08-19,format: %Y-%m-%d
+52,app_date,application_date,01/07/2021,2021-07-01,format: %Y-%m-%d
+53,app_date,application_date,29/09/2021,2021-09-29,format: %Y-%m-%d
+54,app_date,application_date,25/10/2022,2022-10-25,format: %Y-%m-%d
+55,app_date,application_date,31/07/2022,2022-07-31,format: %Y-%m-%d
+56,app_date,application_date,21/07/2023,2023-07-21,format: %Y-%m-%d
+57,app_date,application_date,12/08/2021,2021-08-12,format: %Y-%m-%d
+58,app_date,application_date,23/06/2022,2022-06-23,format: %Y-%m-%d
+59,app_date,application_date,13/01/2023,2023-01-13,format: %Y-%m-%d
+60,app_date,application_date,14/08/2023,2023-08-14,format: %Y-%m-%d
+61,app_date,application_date,13/04/2021,2021-04-13,format: %Y-%m-%d
+62,app_date,application_date,06/05/2021,2021-05-06,format: %Y-%m-%d
+63,app_date,application_date,10/01/2023,2023-01-10,format: %Y-%m-%d
+64,app_date,application_date,20/06/2023,2023-06-20,format: %Y-%m-%d
+65,app_date,application_date,09/01/2022,2022-01-09,format: %Y-%m-%d
+66,app_date,application_date,21/12/2022,2022-12-21,format: %Y-%m-%d
+67,app_date,application_date,06/04/2022,2022-04-06,format: %Y-%m-%d
+68,app_date,application_date,12/06/2022,2022-06-12,format: %Y-%m-%d
+69,app_date,application_date,13/08/2023,2023-08-13,format: %Y-%m-%d
+70,app_date,application_date,28/01/2022,2022-01-28,format: %Y-%m-%d
+71,app_date,application_date,12/12/2021,2021-12-12,format: %Y-%m-%d
+72,app_date,application_date,01/10/2022,2022-10-01,format: %Y-%m-%d
+73,app_date,application_date,01/01/2023,2023-01-01,format: %Y-%m-%d
+74,app_date,application_date,02/06/2023,2023-06-02,format: %Y-%m-%d
+75,app_date,application_date,23/03/2021,2021-03-23,format: %Y-%m-%d
+76,app_date,application_date,13/03/2022,2022-03-13,format: %Y-%m-%d
+77,app_date,application_date,05/09/2021,2021-09-05,format: %Y-%m-%d
+78,app_date,application_date,18/11/2021,2021-11-18,format: %Y-%m-%d
+79,app_date,application_date,04/03/2023,2023-03-04,format: %Y-%m-%d
+80,app_date,application_date,24/08/2022,2022-08-24,format: %Y-%m-%d
+81,app_date,application_date,03/12/2022,2022-12-03,format: %Y-%m-%d
+82,app_date,application_date,03/12/2022,2022-12-03,format: %Y-%m-%d
+83,app_date,application_date,13/08/2021,2021-08-13,format: %Y-%m-%d
+84,app_date,application_date,21/12/2021,2021-12-21,format: %Y-%m-%d
+85,app_date,application_date,10/05/2022,2022-05-10,format: %Y-%m-%d
+86,app_date,application_date,17/03/2023,2023-03-17,format: %Y-%m-%d
+87,app_date,application_date,19/11/2022,2022-11-19,format: %Y-%m-%d
+88,app_date,application_date,18/01/2022,2022-01-18,format: %Y-%m-%d
+89,app_date,application_date,20/11/2022,2022-11-20,format: %Y-%m-%d
+90,app_date,application_date,07/08/2023,2023-08-07,format: %Y-%m-%d
+91,app_date,application_date,21/05/2023,2023-05-21,format: %Y-%m-%d
+92,app_date,application_date,02/06/2022,2022-06-02,format: %Y-%m-%d
+93,app_date,application_date,30/04/2021,2021-04-30,format: %Y-%m-%d
+94,app_date,application_date,05/08/2023,2023-08-05,format: %Y-%m-%d
+95,app_date,application_date,23/05/2021,2021-05-23,format: %Y-%m-%d
+96,app_date,application_date,24/07/2022,2022-07-24,format: %Y-%m-%d
+97,app_date,application_date,13/04/2023,2023-04-13,format: %Y-%m-%d
+98,app_date,application_date,25/02/2021,2021-02-25,format: %Y-%m-%d
+99,app_date,application_date,17/01/2022,2022-01-17,format: %Y-%m-%d
+1,email_raw,email,user1@None,user1@none,trim_lower
+2,email_raw,email,user2@None,user2@none,trim_lower
+4,email_raw,email,user4@None,user4@none,trim_lower
+6,email_raw,email,user6@None,user6@none,trim_lower
+11,email_raw,email,user11@None,user11@none,trim_lower
+14,email_raw,email,user14@None,user14@none,trim_lower
+15,email_raw,email,user15@None,user15@none,trim_lower
+22,email_raw,email,user22@None,user22@none,trim_lower
+26,email_raw,email,user26@None,user26@none,trim_lower
+43,email_raw,email,user43@None,user43@none,trim_lower
+46,email_raw,email,user46@None,user46@none,trim_lower
+53,email_raw,email,user53@None,user53@none,trim_lower
+65,email_raw,email,user65@None,user65@none,trim_lower
+71,email_raw,email,user71@None,user71@none,trim_lower
+72,email_raw,email,user72@None,user72@none,trim_lower
+75,email_raw,email,user75@None,user75@none,trim_lower
+79,email_raw,email,user79@None,user79@none,trim_lower
+82,email_raw,email,user82@None,user82@none,trim_lower
+84,email_raw,email,user84@None,user84@none,trim_lower
+87,email_raw,email,user87@None,user87@none,trim_lower
+91,email_raw,email,user91@None,user91@none,trim_lower
+94,email_raw,email,user94@None,user94@none,trim_lower
+97,email_raw,email,user97@None,user97@none,trim_lower
+99,email_raw,email,user99@None,user99@none,trim_lower
+3,credit_raw,credit_score,266,300,clip: 300-900
+6,credit_raw,credit_score,265,300,clip: 300-900
+7,credit_raw,credit_score,948,900,clip: 300-900
+8,credit_raw,credit_score,926,900,clip: 300-900
+21,credit_raw,credit_score,279,300,clip: 300-900
+30,credit_raw,credit_score,910,900,clip: 300-900
+31,credit_raw,credit_score,948,900,clip: 300-900
+46,credit_raw,credit_score,919,900,clip: 300-900
+48,credit_raw,credit_score,284,300,clip: 300-900
+57,credit_raw,credit_score,275,300,clip: 300-900
+83,credit_raw,credit_score,910,900,clip: 300-900
+95,credit_raw,credit_score,930,900,clip: 300-900
+98,credit_raw,credit_score,295,300,clip: 300-900
+99,credit_raw,credit_score,278,300,clip: 300-900
+1,region_raw,region,,unknown,fill: unknown
+2,region_raw,region,,unknown,fill: unknown
+11,region_raw,region,,unknown,fill: unknown
+14,region_raw,region,,unknown,fill: unknown
+17,region_raw,region,,unknown,fill: unknown
+22,region_raw,region,,unknown,fill: unknown
+48,region_raw,region,,unknown,fill: unknown
+49,region_raw,region,,unknown,fill: unknown
+50,region_raw,region,,unknown,fill: unknown
+65,region_raw,region,,unknown,fill: unknown
+67,region_raw,region,,unknown,fill: unknown
+69,region_raw,region,,unknown,fill: unknown
+72,region_raw,region,,unknown,fill: unknown
+75,region_raw,region,,unknown,fill: unknown
+80,region_raw,region,,unknown,fill: unknown
+81,region_raw,region,,unknown,fill: unknown
+92,region_raw,region,,unknown,fill: unknown
+97,region_raw,region,,unknown,fill: unknown
+99,region_raw,region,,unknown,fill: unknown
+0,tenure_months,tenure_years,240,20,divide_by_12
+1,tenure_months,tenure_years,180,15,divide_by_12
+2,tenure_months,tenure_years,240,20,divide_by_12
+3,tenure_months,tenure_years,180,15,divide_by_12
+4,tenure_months,tenure_years,180,15,divide_by_12
+5,tenure_months,tenure_years,120,10,divide_by_12
+6,tenure_months,tenure_years,120,10,divide_by_12
+7,tenure_months,tenure_years,360,30,divide_by_12
+8,tenure_months,tenure_years,360,30,divide_by_12
+9,tenure_months,tenure_years,240,20,divide_by_12
+10,tenure_months,tenure_years,240,20,divide_by_12
+11,tenure_months,tenure_years,240,20,divide_by_12
+12,tenure_months,tenure_years,240,20,divide_by_12
+13,tenure_months,tenure_years,240,20,divide_by_12
+14,tenure_months,tenure_years,240,20,divide_by_12
+15,tenure_months,tenure_years,120,10,divide_by_12
+16,tenure_months,tenure_years,240,20,divide_by_12
+17,tenure_months,tenure_years,120,10,divide_by_12
+18,tenure_months,tenure_years,60,5,divide_by_12
+19,tenure_months,tenure_years,300,25,divide_by_12
+20,tenure_months,tenure_years,120,10,divide_by_12
+21,tenure_months,tenure_years,300,25,divide_by_12
+22,tenure_months,tenure_years,240,20,divide_by_12
+23,tenure_months,tenure_years,300,25,divide_by_12
+24,tenure_months,tenure_years,240,20,divide_by_12
+25,tenure_months,tenure_years,300,25,divide_by_12
+26,tenure_months,tenure_years,360,30,divide_by_12
+27,tenure_months,tenure_years,60,5,divide_by_12
+28,tenure_months,tenure_years,300,25,divide_by_12
+29,tenure_months,tenure_years,180,15,divide_by_12
+30,tenure_months,tenure_years,180,15,divide_by_12
+31,tenure_months,tenure_years,60,5,divide_by_12
+32,tenure_months,tenure_years,60,5,divide_by_12
+33,tenure_months,tenure_years,240,20,divide_by_12
+34,tenure_months,tenure_years,360,30,divide_by_12
+35,tenure_months,tenure_years,360,30,divide_by_12
+36,tenure_months,tenure_years,360,30,divide_by_12
+37,tenure_months,tenure_years,180,15,divide_by_12
+38,tenure_months,tenure_years,120,10,divide_by_12
+39,tenure_months,tenure_years,360,30,divide_by_12
+40,tenure_months,tenure_years,300,25,divide_by_12
+41,tenure_months,tenure_years,360,30,divide_by_12
+42,tenure_months,tenure_years,300,25,divide_by_12
+43,tenure_months,tenure_years,60,5,divide_by_12
+44,tenure_months,tenure_years,360,30,divide_by_12
+45,tenure_months,tenure_years,120,10,divide_by_12
+46,tenure_months,tenure_years,240,20,divide_by_12
+47,tenure_months,tenure_years,120,10,divide_by_12
+48,tenure_months,tenure_years,60,5,divide_by_12
+49,tenure_months,tenure_years,360,30,divide_by_12
+50,tenure_months,tenure_years,180,15,divide_by_12
+51,tenure_months,tenure_years,300,25,divide_by_12
+52,tenure_months,tenure_years,60,5,divide_by_12
+53,tenure_months,tenure_years,180,15,divide_by_12
+54,tenure_months,tenure_years,180,15,divide_by_12
+55,tenure_months,tenure_years,120,10,divide_by_12
+56,tenure_months,tenure_years,120,10,divide_by_12
+57,tenure_months,tenure_years,360,30,divide_by_12
+58,tenure_months,tenure_years,240,20,divide_by_12
+59,tenure_months,tenure_years,60,5,divide_by_12
+60,tenure_months,tenure_years,60,5,divide_by_12
+61,tenure_months,tenure_years,300,25,divide_by_12
+62,tenure_months,tenure_years,120,10,divide_by_12
+63,tenure_months,tenure_years,240,20,divide_by_12
+64,tenure_months,tenure_years,360,30,divide_by_12
+65,tenure_months,tenure_years,240,20,divide_by_12
+66,tenure_months,tenure_years,120,10,divide_by_12
+67,tenure_months,tenure_years,180,15,divide_by_12
+68,tenure_months,tenure_years,240,20,divide_by_12
+69,tenure_months,tenure_years,180,15,divide_by_12
+70,tenure_months,tenure_years,120,10,divide_by_12
+71,tenure_months,tenure_years,240,20,divide_by_12
+72,tenure_months,tenure_years,300,25,divide_by_12
+73,tenure_months,tenure_years,240,20,divide_by_12
+74,tenure_months,tenure_years,300,25,divide_by_12
+75,tenure_months,tenure_years,120,10,divide_by_12
+76,tenure_months,tenure_years,60,5,divide_by_12
+77,tenure_months,tenure_years,60,5,divide_by_12
+78,tenure_months,tenure_years,360,30,divide_by_12
+79,tenure_months,tenure_years,180,15,divide_by_12
+80,tenure_months,tenure_years,120,10,divide_by_12
+81,tenure_months,tenure_years,60,5,divide_by_12
+82,tenure_months,tenure_years,240,20,divide_by_12
+83,tenure_months,tenure_years,60,5,divide_by_12
+84,tenure_months,tenure_years,180,15,divide_by_12
+85,tenure_months,tenure_years,360,30,divide_by_12
+86,tenure_months,tenure_years,60,5,divide_by_12
+87,tenure_months,tenure_years,180,15,divide_by_12
+88,tenure_months,tenure_years,300,25,divide_by_12
+89,tenure_months,tenure_years,120,10,divide_by_12
+90,tenure_months,tenure_years,180,15,divide_by_12
+91,tenure_months,tenure_years,60,5,divide_by_12
+92,tenure_months,tenure_years,60,5,divide_by_12
+93,tenure_months,tenure_years,240,20,divide_by_12
+94,tenure_months,tenure_years,300,25,divide_by_12
+95,tenure_months,tenure_years,120,10,divide_by_12
+96,tenure_months,tenure_years,240,20,divide_by_12
+97,tenure_months,tenure_years,300,25,divide_by_12
+98,tenure_months,tenure_years,120,10,divide_by_12
+99,tenure_months,tenure_years,60,5,divide_by_12

@@ -1,0 +1,11 @@
+Source Column,Target Column,Transformation,Validation,Data Type
+loan_id,loan_number,pad_10_digits,length == 10 and isdigit,string
+dob,age,calculate_age,>= 18,integer
+loan_amt_raw,loan_amount,round_2_decimals,> 0,float
+approved_amt,approved_amount,round_2_decimals,<= loan_amount,float
+disbursed_amt,disbursed_amount,round_2_decimals,>= approved_amount,float
+app_date,application_date,format: %Y-%m-%d,not null,date
+email_raw,email,trim_lower,not null and valid_email,string
+credit_raw,credit_score,clip: 300-900,>= 300 and <= 900,integer
+region_raw,region,fill: unknown,not null,string
+tenure_months,tenure_years,divide_by_12,> 0 and < 30,integer
