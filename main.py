@@ -41,47 +41,33 @@ if stm_file and data_file:
         st.subheader("📊 Final Report Summary")
         st.markdown(result.get("report_summary", "—"))
 
+        st.subheader("💬 LLM Feedback at Each Step")
+        st.markdown("**After STM Parsing:**")
+        st.markdown(result.get("llm_chat_stm", "—"))
+
         # Show Transformed Data
         st.subheader("📄 Transformed Data")
         st.dataframe(result["transformed_df"])
+
+        st.markdown("**After Transformation:**")
+        st.markdown(result.get("llm_chat_transform", "—"))
 
         # Show Validation Report
         st.subheader("🛠 Validation Report")
         st.dataframe(result["validation_report"])
 
+        st.markdown("**After Validation:**")
+        st.markdown(result.get("llm_chat_validate", "—"))
+        
         # Show Lineage
         st.subheader("🔗 Lineage Log")
         st.dataframe(result["lineage_log"])
-
-        # LLM Responses
-        st.subheader("💬 LLM Feedback at Each Step")
-        st.markdown("**After STM Parsing:**")
-        st.markdown(result.get("llm_chat_stm", "—"))
-
-        st.markdown("**After Transformation:**")
-        st.markdown(result.get("llm_chat_transform", "—"))
-
-        st.markdown("**After Validation:**")
-        st.markdown(result.get("llm_chat_validate", "—"))
 
         st.markdown("**After Lineage:**")
         st.markdown(result.get("llm_chat_lineage", "—"))
 
         st.markdown("**After Report Generation:**")
         st.markdown(result.get("llm_chat_report", "—"))
-
-        # Download Buttons
-        st.download_button("📥 Download Transformed Data",
-                           data=result["transformed_df"].to_csv(index=False),
-                           file_name="transformed_data.csv", mime="text/csv")
-
-        st.download_button("📥 Download Validation Report",
-                           data=result["validation_report"].to_csv(index=False),
-                           file_name="validation_report.csv", mime="text/csv")
-
-        st.download_button("📥 Download Lineage Log",
-                           data=result["lineage_log"].to_csv(index=False),
-                           file_name="lineage_log.csv", mime="text/csv")
 
         # Before vs After for Affected Rows
         affected_rows = result["lineage_log"]["row"].unique().tolist()
