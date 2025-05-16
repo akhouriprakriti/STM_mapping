@@ -27,7 +27,7 @@ if stm_file and data_file:
     st.success("✅ Files uploaded successfully!")
 
     # Trigger full pipeline
-    if st.button("🚀 Run Full Interactive Pipeline"):
+    if st.button("🚀 Run Full Pipeline"):
         with st.spinner("Running full STM pipeline with LLM guidance..."):
             initial_state = {
                 "raw_df": raw_df,
@@ -38,7 +38,7 @@ if stm_file and data_file:
         st.success("✅ Pipeline completed with LLM at every step!")
 
         # Final Summary
-        st.subheader("📊 Final Report Summary")
+        # st.subheader("📊 Report Summary")
         st.markdown(result.get("report_summary", "—"))
 
         st.subheader("💬 LLM Feedback at Each Step")
@@ -60,7 +60,7 @@ if stm_file and data_file:
         st.markdown(result.get("llm_chat_validate", "—"))
         
         # Show Lineage
-        st.subheader("🔗 Lineage Log")
+        st.subheader("🔗 Technical Lineage Log")
         st.dataframe(result["lineage_log"])
 
         st.markdown("**After Lineage:**")

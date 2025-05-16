@@ -2,10 +2,11 @@ import pandas as pd
 import re
 
 class ValidationAgent:
-    def __init__(self, df, stm_plan):
+    def __init__(self, df, stm_plan, id_column="loan_number"):
         self.df = df
         self.stm_plan = stm_plan
         self.violations = []
+        self.id_column = id_column
 
     def validate(self):
         for rule in self.stm_plan:
@@ -15,8 +16,7 @@ class ValidationAgent:
             if col not in self.df.columns:
                 self.violations.append({
                     "column": col,
-                    "rule": expr,
-                    "error": "Column not found in DataFrame"
+                    "rule": expr
                 })
                 continue
 
@@ -48,6 +48,7 @@ class ValidationAgent:
                     for idx in failed_rows:
                         self.violations.append({
                             "column": col,
+                            "loan_number": self.df.at[idx, self.id_column],
                             "rule": expr,
                             "row": idx,
                             "value": self.df.at[idx, col]
@@ -56,6 +57,7 @@ class ValidationAgent:
                     for idx in self.df[failed_rows].index:
                         self.violations.append({
                             "column": col,
+                            "loan_number": self.df.at[idx, self.id_column],
                             "rule": expr,
                             "row": idx,
                             "value": self.df.at[idx, col]
@@ -64,8 +66,7 @@ class ValidationAgent:
             except Exception as e:
                 self.violations.append({
                     "column": col,
-                    "rule": expr,
-                    "error": str(e)
+                    "rule": expr
                 })
 
         return pd.DataFrame(self.violations)

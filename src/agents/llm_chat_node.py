@@ -7,7 +7,7 @@ def get_llm_chat_response(stage: str, state: dict) -> dict:
     Interactive LLM agent that summarizes and answers based on the current pipeline stage.
     Adds an LLM response into the state as `llm_chat_<stage>`.
     """
-    llm = ChatOpenAI(temperature=0.3, model="gpt-4")
+    llm = ChatOpenAI(temperature=0.3, model="gpt-4.1-nano")
 
     if stage == "stm":
         stm_plan = pd.DataFrame(state.get("stm_plan", [])).to_markdown(index=False)
@@ -61,7 +61,7 @@ Would you like to explore changes by row, column, or transformation step?
     elif stage == "report":
         report = state.get("report_summary", "No report summary available.")
         prompt = f"""
-Final report is generated.
+Final report is generated. Can you give a detailed report of everything that happened in the pipeline?
 
 Summary:
 {report}

@@ -14,11 +14,11 @@ class ReportAgent:
         self.summary += f"🕒 Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
 
         # Transformation Summary
-        self.summary += "### ✅ Transformation Summary\n"
+        self.summary += ""
         self.summary += f"- Records Transformed: {len(self.transformed_df)}\n\n"
 
         # Validation Summary
-        self.summary += "### 🔍 Validation Summary\n"
+        self.summary += ""
         if self.validation_df.empty:
             self.summary += "- No validation issues found.\n\n"
         else:
@@ -26,7 +26,7 @@ class ReportAgent:
             self.summary += f"- Affected Columns: {self.validation_df['column'].nunique()}\n\n"
 
         # Lineage Summary
-        self.summary += "### 🔁 Lineage Summary\n"
+        self.summary += ""
         if self.lineage_df.empty:
             self.summary += "- No transformations changed the values.\n"
         else:
